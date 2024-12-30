@@ -224,4 +224,34 @@ form input[type="email"] {
         font-size: 1.5rem;
     }
 }
+/* Mobile-Specific Styling */
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align for better appearance */
+        padding: 15px; /* Slightly larger padding for touch comfort */
+    }
 
+    #header .logo {
+        width: 100%; /* Full width for mobile */
+        justify-content: center; /* Center align logo */
+    }
+
+    #header .logo img {
+        height: 50px; /* Further reduce image size */
+    }
+
+    #header .title-container {
+        width: 100%; /* Full width for title */
+        padding: 0; /* Remove unnecessary padding */
+        margin-top: 10px; /* Maintain spacing between elements */
+    }
+
+    #header h1 {
+        font-size: 1.2rem; /* Adjust font size for small screens */
+    }
+
+    #header p {
+        font-size: 0.9rem; /* Smaller font size for subtitle */
+    }
+}
