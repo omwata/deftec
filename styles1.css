@@ -224,34 +224,36 @@ form input[type="email"] {
         font-size: 1.5rem;
     }
 }
-/* Mobile-Specific Styling */
+/* Responsive Design */
 @media (max-width: 768px) {
     #header {
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center align for better appearance */
-        padding: 15px; /* Slightly larger padding for touch comfort */
-    }
-
-    #header .logo {
-        width: 100%; /* Full width for mobile */
-        justify-content: center; /* Center align logo */
+        flex-direction: column;
+        align-items: center;
     }
 
     #header .logo img {
-        height: 50px; /* Further reduce image size */
-    }
-
-    #header .title-container {
-        width: 100%; /* Full width for title */
-        padding: 0; /* Remove unnecessary padding */
-        margin-top: 10px; /* Maintain spacing between elements */
+        height: 60px;
     }
 
     #header h1 {
-        font-size: 1.2rem; /* Adjust font size for small screens */
+        font-size: 1.5rem;
     }
 
     #header p {
-        font-size: 0.9rem; /* Smaller font size for subtitle */
+        font-size: 1rem;
+    }
+
+    #nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #content {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    #content form button {
+        width: 100%;
     }
 }
