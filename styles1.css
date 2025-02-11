@@ -173,7 +173,7 @@ margin: 20px;
 list-style: decimal;
 }
 
-.image {
+.images {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
