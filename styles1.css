@@ -179,16 +179,19 @@ list-style: decimal;
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
+    width: 100%;
 }
 
 .image-cards {
     display: block;
-    min-height: 200px;
-    max-width: 400px;
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
 }
 
-.image-cards caption {
+caption {
     text-wrap: wrap;
+    width: 100%;
 }
 
 /* Footer Styling */
