@@ -178,10 +178,12 @@ list-style: decimal;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .image-cards {
     display: block;
+    height: 200px;
 }
 
 /* Footer Styling */
