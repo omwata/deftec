@@ -176,19 +176,21 @@ list-style: decimal;
 .images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
     gap: 20px;
 }
 
 .image-cards {
     display: block;
-    max-height: 200px;
+    min-height: 200px;
     max-width: 400px;
 }
 
 .image-cards caption {
     text-wrap: wrap;
+}
+
 /* Footer Styling */
 #footer {
     background-color: #5b93ca;
