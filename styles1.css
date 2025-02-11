@@ -187,6 +187,7 @@ list-style: decimal;
     height: 200px;
     width: 30%;
     object-fit: cover;
+    background-color: orange;
 }
 
 caption {
