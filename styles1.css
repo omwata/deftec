@@ -65,6 +65,10 @@ body {
     background-color: #074079;
     padding: 10px 0;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .nav ul {
@@ -95,10 +99,6 @@ body {
 .nav .header {
     display: flex;
     flex-direction: column;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
 }
 
 /* Content Section */
