@@ -33,6 +33,7 @@ body {
     #header .logo img {
         height: 100px; /* Reduced image size */
         width: auto;
+        border-radius: 50%;
     }
 
     #header .title-container {
