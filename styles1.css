@@ -20,7 +20,6 @@ body {
         display: flex;
         align-items: center; /* Vertically center items */
         justify-content: space-between;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         width: 100%;
     }
 
@@ -54,6 +53,7 @@ body {
         font-style: italic;
         margin: 3px 0 0; /* Adjust spacing below the header */
     }
+
 /* Navigation Styling */
 #nav {
     background-color: #074079;
@@ -88,6 +88,7 @@ body {
 
 #nav, #header {
     position: fixed;
+    width: 100%;
 }
 
 /* Content Section */
