@@ -231,7 +231,7 @@ list-style: decimal;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
-    position: fixed;
+    position: sticky;
 }
 
 .footer p {
