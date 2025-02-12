@@ -173,27 +173,39 @@ margin: 20px;
 list-style: decimal;
 }
 
-.images {
+.scroll-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
     gap: 20px;
-    width: 100%;
+    padding: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x-mandatory;
 }
 
-.image-cards {
-    display: block;
-    height: 200px;
-    width: 30%;
+  .image-card {
+    flex: 0 0 auto; /* Prevent shrinking or growing */
+    scroll-snap-align: center; /* Snap each image to the center */
+    position: relative;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth scaling and opacity transitions */
+  }
+
+  .image-card img {
+    width: 200px; /* Default image size */
+    height: 300px;
     object-fit: cover;
-    background-color: orange;
-}
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+  }
 
-caption {
-    text-wrap: wrap;
-    width: 100%;
-}
+  /* Hover/Focusing Effect */
+  .image-card:focus-within img,
+  .image-card:hover img {
+    transform: scale(1.2); /* Zoom in the hovered/focused image */
+    z-index: 1; /* Bring the hovered/focused image to the front */
+  }
+
+  .image-card:not(:hover) img {
+    opacity: 0.7; /* Dim non-hovered images */
+  }
 
 /* Footer Styling */
 #footer {
