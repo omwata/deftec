@@ -126,7 +126,7 @@ body {
 #content form textarea {
     height: 100px;
     resize: vertical;
-    width: 100%;
+    width: 40%;
 }
 
 #content form button {
