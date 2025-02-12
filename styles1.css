@@ -97,8 +97,7 @@ body {
 }
 
 .nav .header {
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
 /* Content Section */
