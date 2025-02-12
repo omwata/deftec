@@ -175,12 +175,12 @@ list-style: decimal;
 
 .scroll-container {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 20px;
     align-items: center;
     padding: 20px;
     overflow-y: auto;
-    scroll-snap-type: y-mandatory;
+    scroll-snap-type: x-mandatory;
 }
 
   .image-card {
@@ -191,8 +191,8 @@ list-style: decimal;
   }
 
   .image-card img {
-    width: 300px; /* Default image size */
-    height: 200px;
+    width: 200px; /* Default image size */
+    height: 150px;
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s ease; /* Smooth zoom effect */
