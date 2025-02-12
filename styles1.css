@@ -115,7 +115,7 @@ body {
 #content textarea{
     display: block;
     padding: 10px;
-    width: 100%;
+    width: 40%;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -130,6 +130,7 @@ body {
 
 .content-form {
     width: 40%;
+    background-color: cream;
 }
 
 #content form button {
