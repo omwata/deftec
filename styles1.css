@@ -225,13 +225,13 @@ list-style: decimal;
   }
 
 /* Footer Styling */
-.footer {
+footer {
     background-color: #5b93ca;
     color: #fff;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
-    position: sticky;
+    position: relative;
 }
 
 .footer p {
