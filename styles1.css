@@ -22,7 +22,7 @@ body {
         align-items: center; /* Vertically center items */
         justify-content: space-between;
         width: 100%;
-        position: fixed;
+        position: relative;
     }
 
     .header .logo {
