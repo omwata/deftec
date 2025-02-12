@@ -177,6 +177,7 @@ list-style: decimal;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
     padding: 20px;
     overflow-y: auto;
     scroll-snap-type: y-mandatory;
@@ -190,8 +191,8 @@ list-style: decimal;
   }
 
   .image-card img {
-    width: 600px; /* Default image size */
-    height: 400px;
+    width: 300px; /* Default image size */
+    height: 200px;
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s ease; /* Smooth zoom effect */
