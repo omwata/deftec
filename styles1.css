@@ -66,6 +66,7 @@ body {
     padding: 10px 0;
     width: 100%;
     position: fixed;
+    top: 300px;
     left: 0;
     z-index: 1000;
 }
