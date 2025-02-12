@@ -67,6 +67,7 @@ body {
     width: 100%;
     position: fixed;
     left: 0;
+    top: 100px;
     z-index: 1000;
 }
 
@@ -90,7 +91,7 @@ body {
 }
 
 .nav ul li a:hover, 
-.nav ul li a.active {
+.nav ul li a:active {
     background-color: #0073e6;
     color: #fff;
 }
@@ -98,7 +99,6 @@ body {
 .nav .header {
     display: flex;
     flex-direction: column;
-    top: 0;
 }
 
 /* Content Section */
