@@ -191,8 +191,8 @@ list-style: decimal;
   }
 
   .image-card img {
-    width: 200px; /* Default image size */
-    height: 150px;
+    width: 300px; /* Default image size */
+    height: 200px;
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s ease; /* Smooth zoom effect */
