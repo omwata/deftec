@@ -68,7 +68,7 @@ body {
     position: fixed;
     top: 600px;
     left: 0;
-    z-index: 2000;
+    z-index: 1000;
 }
 
 .nav ul {
