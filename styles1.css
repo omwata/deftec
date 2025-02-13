@@ -68,7 +68,6 @@ body {
     position: fixed;
     left: 0;
     top: 120px;
-    margin-bottom: 20px;
     z-index: 1000;
 }
 
@@ -98,8 +97,7 @@ body {
 }
 
 .nav .header {
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
 /* Content Section */
