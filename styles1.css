@@ -96,7 +96,7 @@ body {
     color: #fff;
 }
 
-.nav .header {
+.nav .header .content {
     display: block;
 }
 
@@ -108,7 +108,7 @@ body {
     max-width: 1200px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    top: 150px;
+    gap: 20px;
 }
 
 .content h2 {
